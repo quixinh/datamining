@@ -2,6 +2,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import joblib
 import numpy as np
 def report(y_test, y_pred):
     print("Classification Report:\n", classification_report(y_test, y_pred))
@@ -120,3 +121,12 @@ def plot_confusion_matrix(y_true, y_pred, labels=None, tex="Ma trận nhầm l�
     # Lưu hình
     plt.savefig(f'result_confusion_matrix/{filename}', dpi=300)
     plt.show()
+def save_model(model, file_path):
+    """
+    Lưu mô hình Random Forest vào tệp.
+    Input:
+        model: Mô hình đã huấn luyện (Random Forest).
+        file_path: Đường dẫn tệp để lưu mô hình (mặc định: 'random_forest_model.joblib').
+    """
+    joblib.dump(model, "model/" + file_path)
+    print(f"Model saved successfully to model/ { file_path}")

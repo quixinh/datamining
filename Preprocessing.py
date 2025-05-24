@@ -70,15 +70,22 @@ def select_features(X, y, n_features=5):
 # Hàm vẽ heatmap
 def plot_heatmap(X, y, title="Correlation Heatmap"):
     """
-    Vẽ heatmap cho các đặc trưng đã chọn.
-    Input: X, y
+    Vẽ heatmap cho các đặc trưng đã chọn, chỉ hiển thị ô vuông mà không hiển thị giá trị số.
+    Input:
+        X: DataFrame chứa các đặc trưng đã chọn.
+        y: Series hoặc array chứa nhãn (Attack_type).
+        title: Tiêu đề của heatmap (mặc định là "Correlation Heatmap").
     """
+    # Tạo bản sao của X và thêm cột nhãn Attack_type
     data = X.copy()
     data['Attack_type'] = y
+    
+    # Tính ma trận tương quan
     corr_matrix = data.corr()
     
-    plt.figure(figsize=(20, 25))
-    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+    # Vẽ heatmap
+    plt.figure(figsize=(25, 25))
+    sns.heatmap(corr_matrix, annot=False, cmap='coolwarm', vmin=-1, vmax=1)
     plt.title(title)
     plt.show()
 
