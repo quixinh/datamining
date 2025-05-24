@@ -30,7 +30,7 @@ Hướng dẫn thiết lập môi trường dự án, bao gồm Python, scikit-l
 Nếu sử file được clone từ github thì file có tên `datamining` thay vì `3122410348_TaHongQui` như yêu cầu. Sau đó tiếp tục bước 3.
 ## Cấu trúc Thư mục `datamining` or `3122410348_TaHongQui`.  
 
-- **data/**: Chứa dữ liệu huấn luyện cho mô hình.  
+- **data/**: Chứa dữ liệu huấn luyện cho mô hình. Link dataset: [https://archive.ics.uci.edu/dataset/942/rt-iot2022]
 - **DOC/**: Lưu trữ bài báo cáo của đề tài.  
 - **Document/**: Tài liệu tham khảo về cách thu thập dữ liệu RT-IoT2022.  
 - **EDA/**: Chứa file `EDA.ipynb` dùng để khám phá và phân tích dữ liệu ban đầu.  
@@ -40,7 +40,7 @@ Nếu sử file được clone từ github thì file có tên `datamining` thay 
 - **DataProcessing.py**: Chứa các hàm xử lý dữ liệu.  
 - **Preprocessing.py**: Chứa các hàm tiền xử lý dữ liệu.  
 - **requirements.txt**: Danh sách thư viện cần cài đặt trước khi thực thi chương trình (cài bằng `pip install -r requirements.txt`).  
-- **utils/**: Chứa các hàm hỗ trợ như vẽ biểu đồ, lưu mô hình, và các tiện ích khác.  
+- **utils**: Chứa các hàm hỗ trợ như vẽ biểu đồ, lưu mô hình, và các tiện ích khác.  
 
 ## Tài liệu Tham khảo
 
