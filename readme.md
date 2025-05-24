@@ -36,10 +36,12 @@ Nếu sử file được clone từ github thì file có tên `datamining` thay 
 - **Document/**: Tài liệu tham khảo về cách thu thập dữ liệu RT-IoT2022.  
 - **EDA/**: Chứa file `EDA.ipynb` dùng để khám phá và phân tích dữ liệu ban đầu.  
 - **images/**: Lưu trữ các hình ảnh phân tích từ thư mục EDA và các hình ảnh khác.  
-- **model/**: Vị trí lưu các mô hình tốt nhất đã huấn luyện.  
+- **model**: Vị trí lưu các mô hình tốt nhất đã huấn luyện.  
 - **result_confusion_matrix/**: Lưu kết quả phân loại (ma trận nhầm lẫn), giúp trực quan hóa quá trình phân tích và nhận diện sự thay đổi trong huấn luyện.  
 - **DataProcessing.py**: Chứa các hàm xử lý dữ liệu.  
-- **Preprocessing.py**: Chứa các hàm tiền xử lý dữ liệu.  
+- **Preprocessing.py**: Chứa các hàm tiền xử lý dữ liệu. 
+- **model.py**: vị trí xây dựng hàm huấn luyện mô hình (def).  
+- **main.ipynb**: Thực nghiệm các mô hình.   
 - **requirements.txt**: Danh sách thư viện cần cài đặt trước khi thực thi chương trình (cài bằng `pip install -r requirements.txt`).  
 - **utils**: Chứa các hàm hỗ trợ như vẽ biểu đồ, lưu mô hình, và các tiện ích khác.  
 
