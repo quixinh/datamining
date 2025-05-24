@@ -4,7 +4,8 @@
 - **Giảng viên hướng dẫn**: ThS. Nguyễn Thanh Phước
 
 ## Hướng Dẫn Cài Đặt
-Để dễ dàng đọc file, Thầy truy cập link github: https://github.com/quixinh/datamining.git là trực quan nhất 
+Để dễ dàng đọc file, Thầy truy cập link github: https://github.com/quixinh/datamining.git là trực quan nhất. 
+
 Hướng dẫn thiết lập môi trường dự án, bao gồm Python, scikit-learn, TensorFlow, PyTorch và các thư viện phụ thuộc khác.
 
 ### Yêu cầu
