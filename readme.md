@@ -18,17 +18,17 @@ Hướng dẫn thiết lập môi trường dự án, bao gồm Python, scikit-l
   source venv/bin/activate  # Trên macOS/Linux
   venv\Scripts\activate     # Trên Windows
   ```
-2. **Cài đặt các thư viện cần thiết**:
+2. **Tải mã nguồn dự án**:
+  ```bash
+  git clone https://github.com/quixinh/datamining.git
+  cd datamining
+  ```
+3. **Cài đặt các thư viện cần thiết**:
   ```bash
     pip install -r requirements.txt
   ```
-3. **Tải mã nguồn dự án**:
-  ```bash
-  git clone https://github.com/quixinh/datamining.git
-  cd ppnckh
-  ```
-
-## Cấu trúc Thư mục `3122410348_TaHongQui`
+Nếu sử file được clone từ github thì file có tên `datamining` thay vì `3122410348_TaHongQui` như yêu cầu. Sau đó tiếp tục bước 3.
+## Cấu trúc Thư mục `datamining` or `3122410348_TaHongQui`.  
 
 - **data/**: Chứa dữ liệu huấn luyện cho mô hình.  
 - **DOC/**: Lưu trữ bài báo cáo của đề tài.  
