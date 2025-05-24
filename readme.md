@@ -5,7 +5,7 @@
 - **Sinh viên thực hiện**: Tạ Hồng Quí (MSSV: 3122410348)  
 - **Giảng viên hướng dẫn**: ThS. Nguyễn Thanh Phước  
 
-## GGiải pháp xử lý file có dung lượng lớn 3122410348_TaHongQui.zip
+## Giải pháp xử lý file có dung lượng lớn 3122410348_TaHongQui.zip
 
 Do dung lượng dữ (3122410348_TaHongQui.zip) liệu vượt quá 50MB, em xin phép gửi thầy link Google Drive để tải dữ liệu:  
 - **Link tải dữ liệu**: [Google Drive](https://drive.google.com/drive/folders/1DsrS40BxXw6Ae5dPOLk1_oi5auzHWjDB?usp=sharing)
